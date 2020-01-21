@@ -14,7 +14,7 @@ namespace CoreApi.Controllers
             _emailService = emailService;
         }
 
-        [HttpPost]
+        [HttpPost("send-email")]
         public string SendEmail(Models.Email email)
         {
             return _emailService.SendEmail(email);
