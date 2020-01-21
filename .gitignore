@@ -1,0 +1,7 @@
+/build
+/CoreApi/appsettings.json
+/.vs
+/CoreApi/obj
+/CoreApi/bin
+/CoreApi/.vs
+/CoreApi/Properties
