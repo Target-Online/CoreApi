@@ -19,11 +19,5 @@ namespace CoreApi.Controllers
         {
             return _cipherService.Encrypt(password);
         }
-
-        [HttpGet("dencrypt")]
-        public string Decrypt(string password)
-        {
-            return _cipherService.Decrypt(password);
-        }
     }
 }
